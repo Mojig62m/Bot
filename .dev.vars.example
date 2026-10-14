@@ -1,0 +1,5 @@
+# Copy to .dev.vars for local use. Never commit real credentials.
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_WEBHOOK_SECRET=
+OPENROUTER_API_KEY=
+NVIDIA_API_KEY=

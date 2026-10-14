@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "prompt-architect-telegram",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-14",
+  "observability": { "enabled": true },
+  "vars": {
+    "DEFAULT_PROVIDER": "openrouter",
+    "OPENROUTER_MODEL": "openai/gpt-4o-mini",
+    "NVIDIA_MODEL": "meta/llama-3.3-70b-instruct",
+    "MAX_INPUT_CHARS": "12000",
+    "RATE_LIMIT_PER_MINUTE": "8"
+  },
+  "kv_namespaces": [
+    { "binding": "RATE_LIMIT", "id": "REPLACE_WITH_KV_NAMESPACE_ID" }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "prompt-architect-db",
+      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ]
+}

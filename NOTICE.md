@@ -1,0 +1,1 @@
+This is a starter template, not a guarantee of production readiness. Review provider terms, privacy obligations, Cloudflare limits, and Telegram Bot API behavior before public deployment. Do not commit secrets.
